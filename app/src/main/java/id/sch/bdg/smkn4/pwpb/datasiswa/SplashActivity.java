@@ -1,10 +1,11 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
+
 
 public class SplashActivity extends AppCompatActivity {
 

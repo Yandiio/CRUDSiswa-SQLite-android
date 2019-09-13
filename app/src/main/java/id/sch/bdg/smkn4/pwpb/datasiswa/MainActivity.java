@@ -1,4 +1,4 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.LinearLayout;
 
+
 import java.util.List;
+
+import id.sch.bdg.smkn4.pwpb.datasiswa.Adapter.RecyclerviewAdapter;
+import id.sch.bdg.smkn4.pwpb.datasiswa.DBHelper.DatabaseHelper;
+import id.sch.bdg.smkn4.pwpb.datasiswa.Model.Student;
 
 public class MainActivity extends AppCompatActivity  implements RecyclerviewAdapter.OnUserClickListener {
     RecyclerView recyclerView;
@@ -24,7 +29,7 @@ public class MainActivity extends AppCompatActivity  implements RecyclerviewAdap
         recyclerView = findViewById(R.id.rvData);
         layoutManager = new LinearLayoutManager(MainActivity.this);
         recyclerView.setLayoutManager(layoutManager);
-        btnInput = findViewById(R.id.btnInputData);
+        btnInput = findViewById(R.id.button);
         btnInput.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

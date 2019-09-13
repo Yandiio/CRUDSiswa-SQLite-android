@@ -1,4 +1,4 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa.Model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -1,4 +1,4 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

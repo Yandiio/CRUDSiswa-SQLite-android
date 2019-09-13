@@ -1,7 +1,9 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.pwpb.datasiswa.R;
 
 public class AboutActivity extends AppCompatActivity {
 

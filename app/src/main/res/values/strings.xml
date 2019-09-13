@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">Biodata App</string>
+    <string name="app_name">Data Siswa</string>
     <string name="dashboard">Dashboard</string>
     <string name="main">Data Siswa</string>
     <string name="input">Input Data</string>
     <string name="detail">Detail Data</string>
     <string name="update">Update Data</string>
+    <string name="barnesyandi">Crud ini Dibuat Oleh Barnes Dan Yandi</string>
+    <string name="smkn4">2019 SMKN4 Bandung</string>
 </resources>

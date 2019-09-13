@@ -1,4 +1,4 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

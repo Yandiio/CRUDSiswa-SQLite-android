@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.sch.bdg.smkn4.pwpb.biodataapplication">
-
+    package="id.sch.bdg.smkn4.pwpb.datasiswa">
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,9 +8,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="id.sch.bdg.smkn4.pwpb.datasiswa.MainActivity">
         </activity>
-        <activity android:name=".SplashActivity"
+        <activity android:name="id.sch.bdg.smkn4.pwpb.datasiswa.SplashActivity"
             android:theme="@style/noTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,11 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DashboardActivity" />
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".InputActivity" />
-        <activity android:name=".UpdateActivity" />
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name="id.sch.bdg.smkn4.pwpb.datasiswa.DashboardActivity" />
+        <activity android:name="id.sch.bdg.smkn4.pwpb.datasiswa.AboutActivity" />
+        <activity android:name="id.sch.bdg.smkn4.pwpb.datasiswa.InputActivity" />
+        <activity android:name="id.sch.bdg.smkn4.pwpb.datasiswa.UpdateActivity" />
+        <activity android:name="id.sch.bdg.smkn4.pwpb.datasiswa.DetailActivity"></activity>
     </application>
 
 </manifest>

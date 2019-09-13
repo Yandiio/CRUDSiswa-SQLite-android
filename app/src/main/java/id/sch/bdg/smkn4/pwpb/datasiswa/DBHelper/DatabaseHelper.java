@@ -1,4 +1,4 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa.DBHelper;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,6 +8,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import id.sch.bdg.smkn4.pwpb.datasiswa.Model.Student;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final int DB_VERSION = 1;

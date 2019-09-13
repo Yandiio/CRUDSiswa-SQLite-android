@@ -1,4 +1,4 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+
+
+import id.sch.bdg.smkn4.pwpb.datasiswa.DBHelper.DatabaseHelper;
+import id.sch.bdg.smkn4.pwpb.datasiswa.Model.Student;
 
 public class InputActivity extends AppCompatActivity {
     EditText edtNo, edtName, edtGender, edtBirth, edtAddress;

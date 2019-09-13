@@ -1,4 +1,4 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa.Adapter;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -8,12 +8,15 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
+
 
 import java.util.List;
 
-public class RecyclerviewAdapter extends RecyclerView.Adapter<RecyclerviewAdapter.UserViewHolder> {
+import id.sch.bdg.smkn4.pwpb.datasiswa.Model.Student;
+import id.sch.bdg.smkn4.pwpb.datasiswa.R;
+
+public class  RecyclerviewAdapter extends RecyclerView.Adapter<RecyclerviewAdapter.UserViewHolder> {
     Context context;
     OnUserClickListener listener;
     List<Student> listPersonInfo;

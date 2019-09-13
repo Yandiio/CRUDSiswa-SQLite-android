@@ -1,8 +1,12 @@
-package id.sch.bdg.smkn4.pwpb.biodataapplication;
+package id.sch.bdg.smkn4.pwpb.datasiswa;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+
+
+import id.sch.bdg.smkn4.pwpb.datasiswa.Model.Student;
 
 public class DetailActivity extends AppCompatActivity {
     public static String CURRENT_PERSON = "extra_person";
